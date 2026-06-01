@@ -1,0 +1,29 @@
+# Node
+node_modules/
+package-lock.json
+
+# WhatsApp session
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Environment
+.env
+
+# Temp audio files
+audio.ogg
+audio.wav
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

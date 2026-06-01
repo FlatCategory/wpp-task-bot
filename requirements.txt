@@ -1,0 +1,4 @@
+pywebview>=5.0
+pyqt6
+pyqt6-webengine
+qtpy

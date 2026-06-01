@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notepad</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="opacity-0">
+    <div class="app">
+
+      <header class="toolbar">
+        <span class="title">Notepad</span>
+        <div class="toolbar-actions">
+          <button class="btn ghost" id="btn-opacity" title="Opacity">◐ 100%</button>
+          <button class="btn ghost" id="btn-pin" title="Pin on top">📌</button>
+          <button class="btn ghost" id="btn-clear" title="Clear all">🗑</button>
+          <button class="btn ghost close" id="btn-close" title="Close">✕</button>
+        </div>
+      </header>
+
+      <main class="list" id="list"></main>
+
+      <p class="selection-label" id="selection-label" hidden></p>
+
+      <footer class="input-bar">
+        <input
+          id="entry"
+          type="text"
+          placeholder="Type and press Enter..."
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button class="btn primary"   id="btn-add-task" title="Add task (Enter)">+ Task</button>
+        <button class="btn secondary" id="btn-add-note" title="Add note (Shift+Enter)">+ Note</button>
+      </footer>
+
+      <p class="hint">Enter: task &nbsp;•&nbsp; Shift+Enter: note &nbsp;•&nbsp; ⊕: sub-task</p>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

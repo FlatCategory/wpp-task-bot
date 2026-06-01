@@ -1,0 +1,26 @@
+{
+  "name": "agenda-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with AI-powered task management and desktop notepad",
+  "keywords": ["whatsapp", "bot", "task-management", "ollama", "whisper"],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
+    "curly": "^0.6.2",
+    "dotenv": "^16.4.0",
+    "node-libcurl": "^4.1.0",
+    "punycode": "^2.3.1",
+    "puppeteer": "^24.43.1",
+    "puppeteer-core": "^24.43.1",
+    "qrcode-terminal": "^0.12.0",
+    "serpapi": "^2.2.1",
+    "wav": "^1.0.2",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
